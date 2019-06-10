@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 48b23b1b83194604587972d68aaaf21a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Cube.001
+    100004: Cube.002
+    100006: //RootNode
+    100008: Plane
+    100010: Sun
+    100012: tirador
+    100014: almohada
+    100016: baseCama
+    100018: cojinDerecho
+    100020: cojinIzquierdo
+    100022: escaleras y cajones
+    100024: cama
+    100026: cama.001
+    100028: cama.002
+    100030: cojin1
+    100032: cojin2
+    100034: sabanas
+    100036: sabanas.001
+    100038: armazonCama
+    100040: escaleras
+    400000: Cube
+    400002: Cube.001
+    400004: Cube.002
+    400006: //RootNode
+    400008: Plane
+    400010: Sun
+    400012: tirador
+    400014: almohada
+    400016: baseCama
+    400018: cojinDerecho
+    400020: cojinIzquierdo
+    400022: escaleras y cajones
+    400024: cama
+    400026: cama.001
+    400028: cama.002
+    400030: cojin1
+    400032: cojin2
+    400034: sabanas
+    400036: sabanas.001
+    400038: armazonCama
+    400040: escaleras
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Cube.002
+    2300006: Plane
+    2300008: tirador
+    2300010: almohada
+    2300012: baseCama
+    2300014: cojinDerecho
+    2300016: cojinIzquierdo
+    2300018: escaleras y cajones
+    2300020: cama
+    2300022: cama.001
+    2300024: cama.002
+    2300026: cojin1
+    2300028: cojin2
+    2300030: sabanas
+    2300032: sabanas.001
+    2300034: armazonCama
+    2300036: escaleras
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Cube.002
+    3300006: Plane
+    3300008: tirador
+    3300010: almohada
+    3300012: baseCama
+    3300014: cojinDerecho
+    3300016: cojinIzquierdo
+    3300018: escaleras y cajones
+    3300020: cama
+    3300022: cama.001
+    3300024: cama.002
+    3300026: cojin1
+    3300028: cojin2
+    3300030: sabanas
+    3300032: sabanas.001
+    3300034: armazonCama
+    3300036: escaleras
+    4300000: Cube.002
+    4300002: Cube.001
+    4300004: Cube
+    4300006: tirador
+    4300008: Plane
+    4300010: escaleras y cajones
+    4300012: cojinIzquierdo
+    4300014: cojinDerecho
+    4300016: almohada
+    4300018: baseCama
+    4300020: cama.002
+    4300022: cama.001
+    4300024: sabanas.001
+    4300026: sabanas
+    4300028: cojin2
+    4300030: cojin1
+    4300032: cama
+    4300034: escaleras
+    4300036: armazonCama
+    10800000: Sun
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: df635e8342484f347a41a20680c7b8c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: ff62bbe161d45d5478109eeebc264704, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: materialAzulCama
+    second: {fileID: 2100000, guid: a46dc62d91aed7a4da9e59a99f8df9eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: materialAzulCobalto
+    second: {fileID: 2100000, guid: 891bb9a7cd0cb7f4690366527b9ae3a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: materialBlanco
+    second: {fileID: 2100000, guid: 9d8a1f58735d3c1429bf77a3290f7dd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: materialCojinAzul
+    second: {fileID: 2100000, guid: a1073a3333cfc6244ade01b448029d34, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
