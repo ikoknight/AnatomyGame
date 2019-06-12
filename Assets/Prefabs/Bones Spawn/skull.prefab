@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 54410918922758934}
   m_Layer: 11
   m_Name: skull
-  m_TagString: Untagged
+  m_TagString: bone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1870536439850428}
   m_LocalRotation: {x: 0.383083, y: 0.6005876, z: -0.03140622, w: -0.7011103}
-  m_LocalPosition: {x: 68.51491, y: -14198.755, z: -25.684425}
+  m_LocalPosition: {x: -8.805655, y: -5.399574, z: -1.2750418}
   m_LocalScale: {x: -1.1143756, y: -1.1143746, z: -1.1143756}
   m_Children: []
   m_Father: {fileID: 0}

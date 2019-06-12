@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Leap.Unity.Interaction;
 
 public class HandButtons : MonoBehaviour {
 
@@ -24,6 +25,11 @@ public class HandButtons : MonoBehaviour {
 
         GameObject bone = Instantiate(objectToSpawn, spawnBonePoint.transform.position, Quaternion.identity);
 
-        
+        bone.GetComponent<InteractionBehaviour>().manager = GameObject.Find("Interaction Manager").GetComponent<InteractionManager>();
+
+
+
+
+
     }
 }

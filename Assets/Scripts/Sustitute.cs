@@ -29,11 +29,13 @@ public class Sustitute : MonoBehaviour {
 
 
 	void OnCollisionEnter(Collision other){
-		switch(manager.GetComponent<GameManager>().gamemode){
+		switch(manager.GetComponent<GameManager>().difficulty){
 			case "medium": //Modo de juego dificil, puedes equivocarte
 
 				break;
-			case "hard": //Modo de juego facil, si no toca ahi, se expulsa
+			case "easy": //Modo de juego facil, si no toca ahi, se expulsa
+                print("tocandoen easy calabera");
+                print(this);
 				if(other.gameObject.tag == "bone"){
 
 					if(this.gameObject.GetComponent<Info>().id == other.gameObject.GetComponent<Info>().id && !this.gameObject.GetComponent<Info>().isSet)
@@ -58,7 +60,7 @@ public class Sustitute : MonoBehaviour {
 				break;
 		}
 
-        print(other.gameObject.name);
+
     }
 
     public void touchBone()
