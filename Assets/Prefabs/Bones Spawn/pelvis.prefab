@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114741471853617306}
   - component: {fileID: 54227639425252130}
   - component: {fileID: 114525512805294876}
+  - component: {fileID: 114897723370471776}
   m_Layer: 0
   m_Name: pelvis
   m_TagString: bone
@@ -155,5 +156,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: pelvis
-  isSet: 0
+  isLocked: 0
   placed: 0
+--- !u!114 &114897723370471776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1732413991278108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd07420691d69ea448da62d5cee98925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

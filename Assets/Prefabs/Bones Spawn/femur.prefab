@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 65962179905958764}
   - component: {fileID: 114245990735099168}
   - component: {fileID: 114196331100199968}
+  - component: {fileID: 114233132932091276}
   m_Layer: 0
   m_Name: femur
   m_TagString: bone
@@ -112,8 +113,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.020285916, y: 0.05869965, z: 0.19119483}
-  m_Center: {x: 0.00039841654, y: -0.0006320233, z: -0.00888682}
+  m_Size: {x: 0.06699455, y: 0.05869965, z: 0.19119483}
+  m_Center: {x: 0.0019676508, y: -0.00063202326, z: -0.008886821}
 --- !u!114 &114196331100199968
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,8 +127,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: femur
-  isSet: 0
+  isLocked: 0
   placed: 0
+--- !u!114 &114233132932091276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746791206310514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd07420691d69ea448da62d5cee98925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114245990735099168
 MonoBehaviour:
   m_ObjectHideFlags: 1

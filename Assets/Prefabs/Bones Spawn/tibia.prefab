@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 65614497664054412}
   - component: {fileID: 114435759998805096}
   - component: {fileID: 114271011223719526}
+  - component: {fileID: 114633246775717828}
   m_Layer: 0
   m_Name: tibia
   m_TagString: bone
@@ -126,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: tibia
-  isSet: 0
+  isLocked: 0
   placed: 0
 --- !u!114 &114435759998805096
 MonoBehaviour:
@@ -157,3 +158,14 @@ MonoBehaviour:
     layerIndex: 0
   _eventTable:
     _entries: []
+--- !u!114 &114633246775717828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1282873843530496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd07420691d69ea448da62d5cee98925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

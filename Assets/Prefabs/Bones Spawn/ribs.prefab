@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114246391396105912}
   - component: {fileID: 54056693413119190}
   - component: {fileID: 114490762413323116}
+  - component: {fileID: 114381343827074560}
   m_Layer: 0
   m_Name: ribs
   m_TagString: bone
@@ -126,8 +127,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ribs
-  isSet: 0
+  isLocked: 0
   placed: 0
+--- !u!114 &114381343827074560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1745092746350160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd07420691d69ea448da62d5cee98925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114490762413323116
 MonoBehaviour:
   m_ObjectHideFlags: 1

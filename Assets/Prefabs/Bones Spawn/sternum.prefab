@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114002608791784524}
   - component: {fileID: 54941092114292992}
   - component: {fileID: 114907003943853786}
+  - component: {fileID: 114788567106765906}
   m_Layer: 0
   m_Name: sternum
   m_TagString: bone
@@ -112,8 +113,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.00060098787, y: 0.00091724686, z: 0.0023651195}
-  m_Center: {x: -0.0000000029918406, y: 0.00013253988, z: -0.000090559086}
+  m_Size: {x: 0.0011017973, y: 0.0011324108, z: 0.0023651195}
+  m_Center: {x: -0.000048490754, y: 0.00014571493, z: -0.000090559115}
 --- !u!114 &114002608791784524
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,8 +127,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: sternum
-  isSet: 0
+  isLocked: 0
   placed: 0
+--- !u!114 &114788567106765906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1993617902059576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd07420691d69ea448da62d5cee98925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114907003943853786
 MonoBehaviour:
   m_ObjectHideFlags: 1

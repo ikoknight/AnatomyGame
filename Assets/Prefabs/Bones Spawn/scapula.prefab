@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114213822308864044}
   - component: {fileID: 54970631797382242}
   - component: {fileID: 114915318970491024}
+  - component: {fileID: 114357596792884174}
   m_Layer: 0
   m_Name: scapula
   m_TagString: bone
@@ -112,8 +113,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0010207585, y: 0.0013826173, z: 0.0017780539}
-  m_Center: {x: 0.00006632516, y: -0.00008129328, z: -0.00027456105}
+  m_Size: {x: 0.0013284225, y: 0.0015885365, z: 0.0017780538}
+  m_Center: {x: 0.0000669962, y: -0.000021384265, z: -0.00027456103}
 --- !u!114 &114213822308864044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,8 +127,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: scapula
-  isSet: 0
+  isLocked: 0
   placed: 0
+--- !u!114 &114357596792884174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1703935840697966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd07420691d69ea448da62d5cee98925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114915318970491024
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114497430990672224}
   - component: {fileID: 54874675236612424}
   - component: {fileID: 114753313506255248}
+  - component: {fileID: 114839354487774326}
   m_Layer: 0
   m_Name: radius
   m_TagString: bone
@@ -112,8 +113,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.011102084, y: 0.01600782, z: 0.09033218}
-  m_Center: {x: -0.0004887198, y: -0.0013975749, z: 0.009945275}
+  m_Size: {x: 0.017798306, y: 0.02503087, z: 0.09033218}
+  m_Center: {x: 0.00040903114, y: -0.00038252273, z: 0.009945274}
 --- !u!114 &114497430990672224
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: radius
-  isSet: 0
+  isLocked: 0
   placed: 0
 --- !u!114 &114753313506255248
 MonoBehaviour:
@@ -157,3 +158,14 @@ MonoBehaviour:
     layerIndex: 0
   _eventTable:
     _entries: []
+--- !u!114 &114839354487774326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069787354116236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd07420691d69ea448da62d5cee98925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

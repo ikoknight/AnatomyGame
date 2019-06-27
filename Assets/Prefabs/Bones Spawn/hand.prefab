@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 65517258402816394}
   - component: {fileID: 114521129354949236}
   - component: {fileID: 114527280816342174}
+  - component: {fileID: 114231728430394596}
   m_Layer: 0
   m_Name: hand
   m_TagString: bone
@@ -112,8 +113,19 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.12130711, y: 0.07985987, z: 0.2753083}
-  m_Center: {x: 0.0052913358, y: 0.00088996213, z: -0.019305779}
+  m_Size: {x: 0.12130711, y: 0.07985987, z: 0.57805324}
+  m_Center: {x: 0.0052913344, y: 0.0008899632, z: -0.06679313}
+--- !u!114 &114231728430394596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1787540775886976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd07420691d69ea448da62d5cee98925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114521129354949236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -155,5 +167,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: hand
-  isSet: 0
+  isLocked: 0
   placed: 0

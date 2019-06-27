@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114478672185934954}
   - component: {fileID: 54668334890288666}
   - component: {fileID: 114728865851942784}
+  - component: {fileID: 114437430629859040}
   m_Layer: 0
   m_Name: humerus
   m_TagString: bone
@@ -112,8 +113,19 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0010207585, y: 0.0013826173, z: 0.0017780539}
-  m_Center: {x: 0.00006632516, y: -0.00008129328, z: -0.00027456105}
+  m_Size: {x: 0.023472242, y: 0.022316728, z: 0.09708984}
+  m_Center: {x: -0.0024805004, y: -0.0025578132, z: 0.009294535}
+--- !u!114 &114437430629859040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1531653761053096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd07420691d69ea448da62d5cee98925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114478672185934954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,7 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: humerus
-  isSet: 0
+  isLocked: 0
   placed: 0
 --- !u!114 &114728865851942784
 MonoBehaviour:

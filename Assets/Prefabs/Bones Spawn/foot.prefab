@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 65611072156006208}
   - component: {fileID: 114047766223838980}
   - component: {fileID: 114450097327866786}
+  - component: {fileID: 114346565719195344}
   m_Layer: 0
   m_Name: foot
   m_TagString: bone
@@ -112,8 +113,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.120066814, y: 0.086582676, z: 1.0286717}
-  m_Center: {x: 0.010419518, y: -0.013313414, z: -0.11187624}
+  m_Size: {x: 0.120066814, y: 0.08663061, z: 1.5658027}
+  m_Center: {x: 0.010419518, y: -0.013289428, z: 0.15668914}
 --- !u!114 &114047766223838980
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -143,6 +144,17 @@ MonoBehaviour:
     layerIndex: 0
   _eventTable:
     _entries: []
+--- !u!114 &114346565719195344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852984721850438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd07420691d69ea448da62d5cee98925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114450097327866786
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -154,6 +166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c724b0995295a449c94c48038d365b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 
-  isSet: 0
+  id: foot
+  isLocked: 0
   placed: 0

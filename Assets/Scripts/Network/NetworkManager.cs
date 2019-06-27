@@ -30,11 +30,5 @@ public class NetworkManager : MonoBehaviour
     void OnJoinedRoom()
     {
         listaPlayers.Add(PhotonNetwork.Instantiate(playerPrefabName, spawnPoint.transform.position, spawnPoint.rotation,0));
-
-        //transform.GetChild(0).GetChild(1).GetChild(0).GetChild(0).GetComponent<Leap.Unity.PinchDetector>();
-
-
     }
-
-
 }

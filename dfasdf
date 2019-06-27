@@ -1,0 +1,35 @@
+[33mcommit 806364b873a25da9d3da49bf987fc113eda31fa7[m[33m ([m[1;36mHEAD -> [m[1;32mbranch1[m[33m)[m
+Author: IkoKnight (Araceli) <al285790@uji.es>
+Date:   Mon Jun 10 21:16:12 2019 +0200
+
+    4rd commit
+    
+    Testing git
+
+[33mcommit ccf1c8e01c6de997242fc9c14923df1e26b2eb2c[m[33m ([m[1;32mmaster[m[33m)[m
+Author: IkoKnight (Araceli) <al285790@uji.es>
+Date:   Mon Jun 10 21:14:04 2019 +0200
+
+    Revert "2nd commit"
+    
+    This reverts commit 75c14d931af1985639f405852732cfde555ed1f9.
+
+[33mcommit 75c14d931af1985639f405852732cfde555ed1f9[m
+Author: IkoKnight (Araceli) <al285790@uji.es>
+Date:   Mon Jun 10 21:06:19 2019 +0200
+
+    2nd commit
+
+[33mcommit eb6e6be706adfd567851d68ccb6080b7186f0d64[m
+Author: IkoKnight (Araceli) <al285790@uji.es>
+Date:   Mon Jun 10 20:48:33 2019 +0200
+
+    1st commit
+    
+    First commit
+
+[33mcommit 415327a117a6e1c455ef37762d202cb9c44b8a4d[m
+Author: IkoKnight (Araceli) <al285790@uji.es>
+Date:   Mon Jun 10 19:55:04 2019 +0200
+
+    Initial commit

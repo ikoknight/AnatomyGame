@@ -11,19 +11,14 @@ public class NetworkPlayer : Photon.MonoBehaviour {
 
 	float lerpSmoothing = 5f;
 
-	// Use this for initialization
 	void Start () {
-
 		if(photonView.isMine){
 			GetComponent<Movement>().enabled = true;
-			//transform.GetChild(0).GetChild(0).GetComponent<Camera>().enabled = true;
-
 		}
 		else{
-
 		}
-
 	}
+
 	void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info){
 		if(stream.isWriting){
 			stream.SendNext(transform.position);
@@ -35,9 +30,7 @@ public class NetworkPlayer : Photon.MonoBehaviour {
 		}
 	}
 	
-	// Update is called once per frame
 	void Update () {
-		
 	}
 
 	IEnumerator Alive(){
@@ -46,8 +39,6 @@ public class NetworkPlayer : Photon.MonoBehaviour {
 			transform.rotation = Quaternion.Lerp(transform.rotation, rotation, Time.deltaTime * lerpSmoothing);
 
 			yield return null;
-
-			
 		}
 	}
 }

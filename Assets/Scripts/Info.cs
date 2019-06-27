@@ -6,17 +6,16 @@ public class Info : MonoBehaviour {
 
 
 	public string id;
-    public bool isSet;
+    public bool isLocked;
     public bool placed;
 
 
     // Use this for initialization
     void Start () {
-        isSet = false;
+        isLocked = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
 	}
 }
